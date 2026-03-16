@@ -67,7 +67,10 @@ html {
   .calendar--#{$name} {
     // desloca apenas o primeiro dia do mês para a coluna correta
     .calendar__day:nth-child(1) {
-      background-color: yellow;
+      
+     /*  background-color: yellow;  */
+
+      
       margin-left: ($col - 1) * ($day-size + $gap);
     }
   }
