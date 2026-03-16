@@ -12,7 +12,7 @@ html {
   justify-content: center;
   padding: $padding;
   box-sizing: border-box;
-  background-color: blue;
+  
 }
 
 .calendar {
@@ -23,7 +23,7 @@ html {
   padding: $padding;
   box-sizing: content-box; // se mantiveres assim, $calendar-width deve incluir 2 * $padding
 
-  background-color: red;
+  
 }
 
 .calendar__day {
