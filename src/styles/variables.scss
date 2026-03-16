@@ -3,7 +3,7 @@ $day-border: 1px;
 $gap: 1px; // gap entre cells
 $columns: 7;
 $padding: 10px;
-$calendar-width: $columns * $day-size + ($columns - 1) * $gap + 2;
+$calendar-width: $columns * $day-size + ($columns - 1) * $gap ;
 
 $start-days: (
   
